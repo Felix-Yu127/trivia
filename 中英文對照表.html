@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css\normalize.css">
+  <link rel="stylesheet" href="css\中英文對照表.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function () {
+        $(".go-top").click(function (e) {
+          e.preventDefault();
+          var target = $(e.currentTarget).attr("href");
+          var offset = $(target).offset();
+          $("html, body").animate({ scrollTop: offset.top });
+        });
+  
+        $(".go-bg").click(function (e) {
+          e.preventDefault();
+          var target = $(e.currentTarget).attr("href");
+          var offset = $(target).offset();
+          $("html, body").animate({ scrollTop: offset.top });
+        });
+  
+        $(".go-text").click(function (e) {
+          e.preventDefault();
+          var target = $(e.currentTarget).attr("href");
+          var offset = $(target).offset();
+          $("html, body").animate({ scrollTop: offset.top });
+        });
+
+
+        $(".go-form").click(function (e) {
+          e.preventDefault();
+          var target = $(e.currentTarget).attr("href");
+          var offset = $(target).offset();
+          $("html, body").animate({ scrollTop: offset.top });
+        });
+  
+        $(".go-input").click(function (e) {
+          e.preventDefault();
+          var target = $(e.currentTarget).attr("href");
+          var offset = $(target).offset();
+          $("html, body").animate({ scrollTop: offset.top });
+        });
+      });
+    </script>
+  
+  <title>中英文對照表</title>
+</head>
+
+<body>
+  <div class="container top">
+
+    <div class="container-r">
+      <ul>
+        <li><a href=".top" class="go-top">TOP</a></li>
+        <li><a href=".text" class="go-text">名稱</a></li>
+        <li><a href=".bg" class="go-bg">背景</a></li>
+        <li><a href=".form" class="go-form">表格</a></li>
+        <li><a href=".input" class="go-input">輸入</a></li>
+      </ul>
+    </div>
+    <div class="container-l">
+      <p>通常的全域設定：<br>
+        為獲得瀏覽器良好支援，須使用瀏覽器前娺<br>
+        &emsp;-moz-：適用於 firefox 瀏覽器。<br>
+        &emsp;-webkit-：適用於 safari, google chrome,opera 等瀏覽器。<br>
+        &emsp;-o-：適用於 opera 瀏覽器。<br>
+        &emsp;-ms-：適用於 ie 瀏覽器</p>
+      <p>常用CSS的全域設定：</p>
+      <p>html在head中加入normalize.css的路徑，方便消除不同瀏覽器之間的設定及差異</p>
+      <div class="css clearfix">
+        <pre class="border">
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}</pre>
+        <pre class="border">
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}</pre>
+        <pre class="border">
+img {
+  display: block;
+}
+
+
+</pre>
+        <pre class="border">
+a {
+  text-decoration: none;
+}
+
+
+</pre>
+        <pre class="border">
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</pre>
+
+        <pre class="border">
+body {
+  font-family: "Source SansPro", sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+}</pre>
+      </div>
+      <p>@import：導入，利用@import "about.less";指令可以將"about.less"裡的檔案內容導入到另一個檔案裡面</p>
+      <p>「*」：代表所有元素</p>
+      <p>「>」：底下所有符合的class都做選擇</p>
+      <p>「+」：</p>
+      <p>「&」：在同一層關係</p>
+      <p>「-」：</p>
+      <p>「:first-child」：第一個孩子</p>
+      <p>「:last-child」：最後一個孩子</p>
+      <p>display:block - 區塊，元素會以區塊方式呈現，除非設定 position 或 float，block 的特性是可以設定高度（height）、寬度（width）、上方與下方距離，像是 div、p、ul、li
+        均屬
+        block</p>
+      <p>display:inline - 所有文字或圖片均不換行，也就是全部都會是同一行的意思，inline 高度與寬度都不能設定，文字或圖片所佔的寬度就是他的寬度，像是 span、a、input、img、em 均屬 inline
+      </p>
+      <p>margin
+        collapsing：崩塌，兩個都是display:block的時候，margin之間都沒有任何障礙物，兩個margin就會重疊。<br>&emsp;(1)鄰近的兄弟姊妹之間 (2)當爸爸跟第一個孩子or最後一個孩子之間
+        (3)空的block本身會崩塌
+      </p>
+      <p>box-sizing：盒子大小，其中屬性border-box，實際寬度是把border加上padding加上內容，由電腦自動計算，這樣才不會超出設定的寬度
+      </p>
+      <p>font-family：字體系列(設定在css中)，從第一個字型開始，如果使用者無此字體型式就用第二個字型以此類推，如果都沒有會自動用使用者內建的</p>
+      <p>Source Sans Pro：字體的一種</p>
+      <p>sans-serif：無襯線字體(字體的一種)</p>
+      <p>font-weight：字體重量(字體粗細)，100最細，900最粗，400為中等</p>
+      <p>margin：邊界，邊界有時候可以重複，是跟其他物體之間的距離，比較像是，書跟其他物品之間的距離像是跟隔壁的筆差了 20cm、跟杯子隔了 30cm</p>
+      <p>padding：留白，距離邊界有多遠，是對本身的留白, 有點像是書裡面的留白，文字跟書之間的距離</p>
+      <p class="text">transparent：透明</p>
+      <p>slider：滑塊</p>
+      <p>category：類別</p>
+      <p>recent-product：近期產品</p>
+      <p>laptop：筆記本電腦</p>
+      <p>summary：摘要</p>
+      <p>rounded：圓</p>
+      <p>circle：圈</p>
+      <p>description：描述，簡寫desc可以拿來當class的標題用</p>
+      <p>dot：點</p>
+      <p>intro：介紹</p>
+      <p>info：信息</p>
+      <p>product：產品</p>
+      <p>price：價錢</p>
+      <p>pricing：價錢</p>
+      <p>package：包</p>
+      <p>value：值</p>
+      <p>decimal：小數點</p>
+      <p>duration：持續時間</p>
+      <p>recommended：推薦的</p>
+      <p>special-offer：特殊優惠</p>
+      <p>promo-info：宣傳信息</p>
+      <p>photo：照片</p>
+      <p>progress-bar：進度條</p>
+      <p>progress：進度</p>
+      <p>team-member：團隊成員</p>
+      <p>graphic design：平面設計</p>
+      <p>count：計數</p>
+      <p>thumbnail：縮略圖</p>
+      <p>pixel：像素</p>
+      <p>git</p>
+      <p>common-list：常見的列表</p>
+      <p>event：事件</p>
+      <p>submit：提交</p>
+      <p>feature：特徵</p>
+      <p>featured：精選</p>
+      <p>outlet：出口</p>
+      <p>autobiography：自傳</p>
+      <p>address：地址</p>
+      <p>custom class：自定義類</p>
+      <p>Whole area：全域</p>
+      <p>target：目標</p>
+      <p>bland：平淡</p>
+      <p>a[href=#][target=_bland]{view map}：縮寫的方式範例，展開後是&lt;a href="#" target="_bland">view map&lt;/a&gt;</p>
+      <p>copyright：版權</p>
+      <p>result：結果</p>
+      <p>text-align：文本對齊，文字對齊方式。是針對文章內的文字</p>
+      <p>center：置中</p>
+      <p>display：顯示</p>
+      <p>inline：直列，inline包不住block，就像紙包不住火一般。</p>
+      <p>block：區塊</p>
+      <p>容器置中的方式：將容器設定成區塊，設定寬度，設定margin上下0左右auto</p>
+      <p>img在預設是display:inline，系統會在底下預留一點點空白(文字底線下的空間)，所以容器的高度會不一樣，設成block就可以解決</p>
+      <p>Navigation：導航(導覽)</p>
+      <p>both：都，屬於clearfix中clear的屬性</p>
+      <p>list-style-type：列表樣式類型，屬性選none可以讓li的點點不見</p>
+      <p>none：沒有</p>
+      <p>text-decoration：文字修飾，可以讓a連結的樣式改變，如清掉底線</p>
+      <p>text-transform：文字轉換，其中屬性有lowercase(小寫)、uppercase(大寫)、initial(初始)、inherit(繼承)、capitalize(字首大寫)、none</p>
+      <p>transform：轉變，css3的功能，讓網頁元素呈現出旋轉（rotate）、縮放（scale）、移動（move）以及傾斜（skew）的特殊效果</p>
+      <p>transform: rotate()：旋轉，rotate(x,y,z)，根據設定的角度，以參考點為中心軸進行 2D、3D 旋轉。單位是(deg)</p>
+      <p>transform: translate()：翻，translate(x,y)，由參考點進行 2D 轉換特效，向 x 軸移動 x 距離，Y 軸移動 y 距離。單位是(%或px)</p>
+      <p>transform: scale()：縮放，scale(x,y)，由參考點進行 2D 縮放特效，X 軸方向縮放 x 倍，Y 軸方向縮放 y 倍。沒有單位，要輸入原比例跟改變比例(1,1.5)</p>
+      <p>transform: skew：傾斜，skew(x,y) 以參考點為中心，沿著 X 軸方向傾斜 x 度，沿著 Y 軸方向傾斜 y 度。單位是(deg)</p>
+      <p>border：邊界(邊框)，可加上right或bottom(上下左右都行)設定邊框的粗細、型式、顏色</p>
+      <p>solid：實線</p>
+      <p>dotted：虛線</p>
+      <p>hidden：隱藏線</p>
+      <p>border-radius：邊界半徑，，倒圓的效果，設定寬度的一半就能變成圓型</p>
+      <p>::before：前面，偽元素，用兩個::開頭，在目標物的前面加上指定的東西</p>
+      <p>::after：後面，偽元素，用兩個::開頭，在目標物的後面加上指定的東西，例如.boundary::after {
+        content: "|";}，在.boundary後面加上一個「|」符號</p>
+      <p>content：內容</p>
+      <p>container：容器</p>
+      <p>line-height：行高(預設是倍數)，可直接設參數1、2字元高(1、2個字元高)或px(100個px高)，讓高度跟旁邊的圖一樣高就能讓裡面的文字高度置中，如logo高100px，line-height就設定100px
+      </p>
+      <p>position：位置</p>
+      <p>relative：相對的</p>
+      <p>absolute：絕對</p>
+      <p>letter-spacing：字母間距，要注意單位px</p>
+      <p>hr：分隔線，hr不是實心線，是用border去湊出來的，所以可以設定高度，背景顏色，並把border設none，就能得到純高度的hr</p>
+      <h3 class="bg">background:背景</h3>
+      <p>background-size：背景大小，其中屬性cover，讓背景左右符合顯示範圍</p>
+      <p>background-position：背景位置，左右、上下各50%就能圖片置中</p>
+      <p>background-attachment：背景附件，可選fixed、scroll、inherit、initial、local、unset</p>
+      <p>fixed：固定</p>
+      <p>scroll：滾動</p>
+      <p>inherit：繼承</p>
+      <p>initial：初始</p>
+      <p>local：本地</p>
+      <p>unset：未設置</p>
+      <p>rgba：background屬性，代表Red(紅色)Green(綠色)Blue(藍色)和Alpha的色彩空間，編寫方式 background: rgba(255,255,255,0.9)，就是白色透明度90%</p>
+      <p>Alpha：一般用作不透明度的參數，0就是完全透明，1就是完全不透明，0.5就是半透明</p>
+      <p>opacity：不透明度，0為完全透明，1為完全不透明</p>
+      <p>transition：漸變(過渡)，CSS3的功能，先選秒數，再選變化型態，再選對象all、none，常用變化型態有linear(線型)、ease(緩解)</p>
+      <p>iframe：從設定的網址裡面把網頁的內容塞進這個標籤(type)裡面，可以應用在貼上google map上</p>
+
+      <h3>Table：表格</h3>
+      <p>table：表格，table(表格) 裡面有 row(列) 裡面有 cell(元件)</p>
+      <p>tr：table row，表格中的一列一列(橫列)</p>
+      <p>td：table data，在每一列中的資料，跟每一欄是一樣的意思(直欄)</p>
+      <p>table結構可區分為thead(頭)、tbody(身體)、tfoot(尾)</p>
+      <p>th：在thead裡面的td，使用th來取代，其實跟td是一樣的，只是因為在thead裡面，所以用th</p>
+
+      <h3 class="form">form：表單</h3>
+      <p>
+        < form <b>action</b>="register.php" <b>method</b>="post"></>
+      </p>
+      <p>label：標籤<b>(很好用的功能)</b>，通常label後面會有一個屬性for，這對應到另一個標籤id，不用for的時候也可以讓使用者在點選字樣的時候，可以自動對應到目標內</p>
+      <pre>
+    < label <b>for="email"</b>>Email< /label>
+    < input type="text" <b>id="email"</b>>
+    </pre>
+      <p>action：行動，form裡面的屬性，把表單內容整理起來送到哪裡去處理，例如："register.php"</p>
+      <p>method：方法，有兩個值get、post</p>
+      <p>get：會把資料整理完後送出去給後台，但資料「會」顯示在網址上，較不安全</p>
+      <p>post：會把資料整理完後會從後面默默的送出去給後台，資料「不會」顯示在網址上，比較安全</p>
+
+      <h3 class="input">input：輸入</h3>
+      <p>
+        < input type="<b>text</b>" <b>placeholder</b>="Email" <b>required</b>>
+      </p>
+      <p>input：輸入：有多個type屬性，text、password、radio、checkbox</p>
+      <p>text：文字輸入</p>
+      <p>password：會將輸入內容特地隱藏(mask)起來</p>
+      <p>placeholder：佔位符號，預先顯示的內容，在input的框內預先顯示給使用者看的，方便說明此格是要輸入什麼內容，如email、姓名等</p>
+      <p>required：需要，必須填寫，html:5 在form增加的屬性</p>
+      <p>
+        < input type="<b>radio</b>" <b>name</b>="gender" value="male">
+      </p>
+      <p>
+        < input type="<b>radio</b>" <b>name</b>="gender" value="female <b>checked</b>">
+      </p>
+      <p>radio：單選題功能，只能選一個，另一個會消失，如性別選擇是男生或女生</p>
+      <ol>※ name：在input屬性中的name相同會被歸類在同一組，才能區分哪些選項是單選</ol>
+      <p>
+        < input type="<b>checkbox</b>">
+      </p>
+      <p>checked：檢查，預設值的意思，讓表單在一開始就先選好的選項</p>
+      <p>checkbox：多選題功能，可以同時點選很多個，如興趣有很多個</p>
+      <p>select：下拉式選項，可以定義很多種選項內容</p>
+      <p>option：選項</p>
+      <p>selected：預先顯示的，也是預設值的意思，不使用的話預設會顯示第一個</p>
+      <pre>
+    < select name="year">
+        < <b>option</b> value="1901">1901< /option>
+        < option value="1902">1902< /option>
+        < option value="1903" <b>selected</b>>1903< /option>
+        < option value="1904">1904< /option>
+        < option value="1905">1905< /option>
+    < /select>
+    </pre>
+      <p>textarea：很大的文字方塊，可以留言給管理者或像聊天框的地方，可設定屬性有cols(幾行)、rows(幾列)，可以設定框的大小</p>
+      <p>
+        < textarea <b>cols</b>="30" <b>rows</b>="10"></>
+      </p>
+      <p>button：按鈕，把表單內容送出去</p>
+      <p>reset：把表單內的全部資料清掉</p>
+      <p>type="button"：只是要顯示起來是個button，但實際上沒有任何功能，常配合JavaScript去處理動作(客製化動作)</p>
+      <pre>
+      < form action="register.php">
+        < input type="text">
+        < button><b>Submit</b>< /button>                    <---都沒寫type預設就是submit，把東西送出去
+        < button type="<b>reset</b>">Reset< /button>
+        < button type="<b>button</b>">No action< /button>
+      < /form>
+    </pre>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

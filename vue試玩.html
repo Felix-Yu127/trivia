@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue試玩</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <!--先取一個 ID，讓vue.js在這個 id 裡面能執行vue的功能，vue.js的特性：在指定範圍內都有vue.js的功能-->
+    <h1>台幣匯率：
+    </h1>
+    <input type="text" v-model="message">
+    <hr>
+    <!-- <input type="text" v-model="message"> -->
+
+    <!-- <div>{{ $data | json }}</div> -->
+
+    <!-- <div id="app">
+      {{message}} -->
+    <table border="1" width="400px" cellpadding="5px">
+      <tr>
+        <td>美金</td>
+        <td>{{usd}}</td>
+        <td>{{usd * message}}</td>
+      </tr>
+      <tr>
+        <td>港幣</td>
+        <td>{{hkd}}</td>
+        <td>{{hkd * message}}</td>
+      </tr>
+      <tr>
+        <td>英鎊</td>
+        <td>{{gbp}}</td>
+        <td>{{gbp * message}}</td>
+      </tr>
+      <tr>
+        <td>澳幣</td>
+        <td>{{aud}}</td>
+        <td>{{aud * message}}</td>
+      </tr>
+      <tr>
+        <td>日圓</td>
+        <td>{{jpy}}</td>
+        <td>{{jpy * message}}</td>
+      </tr>
+    </table>
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <!--習慣把 Vue.js的 CDN(網路上的資源，就不用下載整包vue)的 URL 插入到 body 尾端的前面，這樣就能載入Vue.js的功能-->
+  <script>
+    // var data = {
+    //   message: "Hello World"
+    // }
+    // new Vue({
+    //   el: "#app", data: data
+    // });
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: '',
+        score: 60,
+        usd: 30.89,
+        hkd: 3.835,
+        gbp: 37.1,
+        aud: 20.95,
+        jpy: 0.2841,
+      }
+    });
+  </script>
+</body>
+
+</html>

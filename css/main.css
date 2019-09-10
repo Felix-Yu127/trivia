@@ -1,0 +1,1010 @@
+.decor #nav {
+  padding-right: 0 ;
+}
+.about #content .col-6 .title {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.about #content .feature {
+  background: url(http://lorempixel.com/1920/1080);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.about #content .team-member {
+  padding: 100px 0;
+}
+.about #content .member .name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.about #content .member .title {
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.about #content .cover h3 {
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.about #content .cover p {
+  font-size: 14px;
+  padding: 0 30px;
+}
+.about #content .cover .social-media {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.about #content .cover .social-media ul {
+  display: inline-block;
+}
+.about #content .cover .social-media li {
+  float: left;
+  margin: 0 10px;
+}
+.about #content .cover .social-media a {
+  color: black;
+}
+.about #content .gray-bg {
+  padding: 100px 0;
+  text-align: center;
+}
+.about #content .gray-bg .count {
+  font-size: 36px;
+}
+.about #content .gray-bg h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #323232;
+}
+.about #content .clients {
+  padding: 100px 0;
+}
+.about #content .clients p {
+  letter-spacing: 0;
+  text-transform: none;
+}
+.about .summary i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+.service #header {
+  position: absolute;
+  width: 100%;
+}
+.service #content .header {
+  background-image: url(https://dummyimage.com/1920x1080/eee/ddd);
+}
+.service #content .header.black .title,
+.service #content .header.black #breadcrumbs li {
+  color: black;
+}
+.service #content .special-services .title {
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #d6b161;
+  line-height: 1.5;
+}
+.service #content .special-services .subtitle {
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.service #content .special-services p {
+  margin-bottom: 30px;
+}
+.service #content .special-offer {
+  padding: 60px 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.service #content .special-offer em {
+  font-style: normal;
+  color: #d6b161;
+}
+.service #content .special-offer .promo-info {
+  float: left;
+}
+.service #content .special-offer .promo-info .title {
+  margin-bottom: 10px;
+}
+.service #content .special-offer .promo-info p {
+  line-height: 22px;
+}
+.service #content .special-offer .promo-button {
+  margin: 0;
+  float: right;
+}
+.service .services {
+  padding: 100px 0;
+}
+.service .services .row > div {
+  padding: 50px;
+}
+.service .services .row > div:hover {
+  transition: 0.3s linear all;
+  background: #222;
+  color: white;
+}
+.service .services .row > div:hover i {
+  color: #d6b161;
+}
+.service .services .row > div:hover p {
+  color: #737373;
+}
+.service .big-dot li {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.service .big-dot li::before {
+  font-family: "fontello";
+  /*要顯示的字型*/
+  content: '\f10c';
+  /*在fontello.css中icon的名稱*/
+  color: #757575;
+  padding-right: 10px;
+}
+.contact #content .title {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.contact #content .contact-info .address {
+  margin-bottom: 30px;
+}
+.contact #content .question p {
+  margin-bottom: 30px;
+}
+.contact #content .question .button {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.contact #footer.dark .info {
+  padding: 40px 0;
+}
+.contact #footer.dark img {
+  margin: 0 auto;
+}
+.contact #footer.dark .social-media {
+  float: none;
+  margin: 50px 0;
+  text-align: center;
+}
+.contact #footer.dark .social-media ul {
+  display: inline-block;
+}
+.contact #footer.dark .social-media a {
+  margin: 0 7.5px;
+  color: white;
+  font-size: 20px;
+}
+.contact #footer.dark .social-media a:hover {
+  background: white;
+  color: #222;
+  transition: .3s linear all;
+}
+.contact #footer.dark .copyright {
+  padding-top: 40px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.2);
+  float: none;
+}
+.contact #footer.dark .copyright .title {
+  margin: 0;
+  text-align: center;
+  color: #7e7e7e;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+.careers #content .header {
+  padding: 50px 0;
+  background: #f5f5f5;
+}
+.careers #content .header.black .title,
+.careers #content .header.black #breadcrumbs li {
+  color: black;
+}
+.careers #content .header h3.title {
+  font-size: 18px;
+  line-height: 43px;
+}
+.careers #content .package {
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+.careers #content .package .title {
+  padding-bottom: 20px;
+}
+.careers #content .package p {
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.careers #content .package .view {
+  color: #cbcbcb;
+}
+.careers #content .apply .contact-form {
+  margin-top: 0;
+}
+.careers #content .apply .contact-form label {
+  text-transform: capitalize;
+}
+.careers #content .apply .col-6 {
+  padding: 0 30px;
+}
+.careers #content .apply .col-6 input {
+  margin-bottom: 30px;
+  height: 34px;
+  border-radius: 3px;
+}
+.careers #content .apply .col-6 textarea {
+  margin-bottom: 30px;
+  height: 115px;
+  border-radius: 3px;
+}
+.careers #content .apply .col-12 {
+  margin-top: 30px;
+  text-align: center;
+}
+.careers #content .apply .col-12 .button {
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+/* Whole area 全域 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+p {
+  line-height: 30px;
+  color: #7e7e7e;
+}
+a {
+  text-decoration: none;
+}
+/* custom class 自定義類*/
+.container {
+  display: block;
+  width: 1170px;
+  margin: 0 auto;
+}
+.container.full-width {
+  width: 100%;
+}
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.button.black {
+  background: #222;
+  color: white;
+  transition: 0.2s linear all;
+}
+.button.black:hover {
+  background: #d6b161;
+}
+.button.white {
+  transition: 0.2s linear all;
+}
+.button.white:hover {
+  background: #d6b161;
+  color: white;
+}
+.button.gold {
+  background: #d6b161;
+  color: white;
+  transition: 0.2s linear all;
+}
+.button.gold:hover {
+  background: #222;
+}
+.button.full-width {
+  width: 100%;
+}
+.button.bordered {
+  border: 1px solid black;
+}
+.button.bordered.dark {
+  transition: 0.2s linear all;
+}
+.button.bordered.dark:hover {
+  background: #222;
+  color: white;
+}
+.button.bordered.light-border {
+  border-color: #e8e8e8;
+}
+.button.rounded {
+  -webkit-webkit: border radius 4px;
+  -moz-webkit: border radius 4px;
+  -ms-webkit: border radius 4px;
+  -o-webkit: border radius 4px;
+  border-radius: 4px;
+}
+.clearfix::after,
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  margin: 0 -10px;
+}
+.row.bordered > div {
+  border: 1px solid #f2f2f2;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-12 {
+  float: left;
+  padding: 0 30px;
+}
+.col-2 {
+  width: 16.6666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.3333333%;
+}
+.col-5 {
+  width: 41.66666666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333%;
+}
+.col-8 {
+  width: 66.66666667%;
+}
+.col-12 {
+  width: 100%;
+}
+.boundary::after {
+  content: "|";
+  padding: 0 12px;
+  color: #333;
+}
+.title-block {
+  margin-bottom: 30px;
+}
+.progress-bar {
+  width: 100%;
+  background-color: #eae8e8;
+  margin-bottom: 50px;
+}
+.progress-bar > div {
+  display: inline-block;
+}
+.progress-bar .progress {
+  padding-left: 10px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-size: 10px;
+}
+.progress-bar .pin {
+  position: relative;
+  top: -30px;
+  left: -40px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 3px 8px;
+  border-radius: 14px;
+}
+.progress-bar .pin::after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(102, 102, 102, 0);
+  border-top-color: #666666;
+  border-width: 4px;
+  margin-left: -4px;
+}
+.feature-brief {
+  text-align: center;
+}
+.feature-brief .title {
+  font-size: 18px;
+}
+.feature-brief i {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 36px;
+}
+.feature-brief.white {
+  color: white;
+}
+.feature-brief.white i {
+  color: #d6b161;
+}
+.feature-brief.white p {
+  color: white;
+}
+.feature-brief.black {
+  color: #222;
+}
+.feature-brief.black i {
+  color: #414141;
+}
+.feature-brief.black p {
+  color: #7e7e7e;
+}
+.pricing .package {
+  padding: 0 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.pricing .package .box {
+  padding: 50px;
+  border: 1px solid #e8e8e8;
+}
+.pricing .package .name {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.pricing .package .value {
+  margin-bottom: 40px;
+  padding: 25px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.pricing .package .price {
+  font-size: 42px;
+}
+.pricing .package .decimal {
+  margin-left: -10px;
+  font-size: 16px;
+}
+.pricing .package .duration {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.pricing .package .features li {
+  margin-bottom: 15px;
+}
+.pricing .package.recommended .box {
+  background-color: #222;
+  color: white;
+}
+.pricing .package.recommended .name {
+  color: #d6b161;
+}
+.pricing .package.recommended .value {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.pricing .package.recommended .features li {
+  color: #7d7d7d;
+}
+.contact-info {
+  color: #7e7e7e;
+  line-height: 30px;
+}
+.contact-info a {
+  color: #7e7e7e;
+}
+.contact-form {
+  display: inline-block;
+  margin-top: 50px;
+}
+.contact-form .col-6,
+.contact-form .col-12 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.contact-form label {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #7e7e7e;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 6px 12px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+}
+.contact-form textarea {
+  height: 100px;
+}
+.contact-form button {
+  margin-top: 0;
+}
+.select {
+  margin-bottom: 30px;
+  padding: 6px 12px;
+  float: left;
+  width: 100%;
+  height: 34px;
+  border: 1px solid #e5e5e5;
+  color: #555;
+}
+/* header部份 */
+#logo {
+  float: left;
+}
+#nav {
+  padding-right: 30px;
+  float: right;
+  text-transform: uppercase;
+}
+#nav .symbol {
+  margin-left: 3px;
+}
+#nav li {
+  float: left;
+}
+#nav a {
+  display: inline-block;
+  padding: 0 12px;
+  color: #333;
+  font-size: 13px;
+  line-height: 100px;
+}
+#nav .active a {
+  color: #d6b161;
+}
+/* content部份 */
+#content > div {
+  padding-top: 100px;
+}
+#content > div.full-padding {
+  padding: 100px 0;
+}
+#content > div.gray-bg {
+  background: #f5f5f5;
+}
+#content > div:first-child {
+  padding-top: 0;
+}
+#content > hr {
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+#content h2.title {
+  font-size: 24px;
+}
+#content h3.title {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px;
+}
+#content div.header {
+  padding: 200px 0;
+  background-image: url(http://lorempixel.com/1920/1080);
+  background-size: cover;
+  background-position: 50%;
+  /*讓圖置中*/
+  background-repeat: no-repeat;
+  /* 讓圖不要漏出來 */
+}
+#content div.header .title {
+  float: left;
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+#content div.header #breadcrumbs {
+  float: right;
+  padding: 15px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+#content div.header #breadcrumbs li {
+  float: left;
+  text-transform: uppercase;
+  color: white;
+}
+#content div.header #breadcrumbs li::after {
+  content: "/";
+  margin: 0 5px;
+}
+#content div.header #breadcrumbs li:last-child::after {
+  content: "";
+  margin: 0;
+}
+#content div.header #breadcrumbs a {
+  color: #7e7e7e;
+}
+#content div.header #breadcrumbs.transparent {
+  background: transparent;
+}
+#content .feature-item {
+  position: relative;
+  margin-bottom: 80px;
+  padding-left: 80px;
+}
+#content .feature-item .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 36px;
+}
+#content .feature-item .title {
+  margin-bottom: 20px;
+}
+#content .feature-item .desc {
+  color: #7e7e7e;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.intro h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #333;
+}
+.intro hr {
+  width: 60px;
+  margin: 0 auto;
+  height: 2px;
+  background: #595959;
+  border: none;
+}
+.intro p {
+  color: #7e7e7e;
+}
+.intro.big h2 {
+  padding: 0;
+  line-height: 1.5;
+}
+.intro.big p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.category {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.category img {
+  width: 100%;
+  height: auto;
+}
+.category .title {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+}
+.category .title.dark {
+  color: #222;
+}
+.category .title.light {
+  color: #fff;
+}
+.products li {
+  float: left;
+}
+.product {
+  padding: 0 10px;
+}
+.product .info {
+  padding: 15px 0;
+  text-align: center;
+}
+.product .title {
+  margin: 0;
+}
+.product .title a {
+  color: #222;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.product .price {
+  font-size: 12px;
+  color: #7e7e7e;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.thumbnail {
+  position: relative;
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+.thumbnail .cover {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s;
+  /*讓漸變的效果在0.3s完成*/
+}
+.thumbnail .cover:hover {
+  opacity: 1;
+}
+.thumbnail .cover > a {
+  position: absolute;
+  color: #333;
+  top: 44%;
+  transform: translateX(-50%);
+}
+.icon-search-1 {
+  font-size: 30px;
+}
+.event {
+  padding: 150px 0;
+  background-image: url(http://lorempixel.com/1920/1080);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.event .title {
+  margin: 0;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 70px;
+}
+.event .subtitle {
+  margin: 0;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.event a {
+  letter-spacing: 1px;
+}
+.featured {
+  padding-bottom: 100px;
+}
+.featured img {
+  width: 100%;
+  height: auto;
+}
+.featured .info {
+  margin-top: 70px;
+  text-align: center;
+}
+.featured .info .title {
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #d6b161;
+}
+.featured .info .name {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.featured .info .price {
+  color: #d6b161;
+  font-weight: 100;
+  font-size: 26px;
+}
+.featured .info p {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.featured .info a {
+  letter-spacing: 1px;
+}
+.featured .col-6 {
+  padding: 0 30px;
+}
+.outlets {
+  padding-bottom: 100px;
+}
+.outlets .address {
+  text-transform: capitalize;
+}
+.outlet h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.outlet .map a {
+  color: #d6b161;
+  text-transform: uppercase;
+}
+/* footer部份 */
+#footer {
+  background: #f5f5f5;
+  position: relative;
+  padding: 80px 0;
+}
+#footer .logo {
+  position: absolute;
+  border: 5px solid #f5f5f5;
+  padding: 20px;
+  background: #fff;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#footer .copyright {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#footer .copyright .subtitle {
+  font-size: 12px;
+  color: #323232;
+}
+#footer .social-media {
+  float: right;
+}
+#footer .social-media li {
+  float: left;
+}
+#footer .social-media a {
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #222;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  color: #222;
+  text-align: center;
+  line-height: 40px;
+}
+#footer.dark {
+  padding: 0;
+  background: #222;
+}
+#footer.dark .info {
+  padding: 80px 0;
+}
+#footer.dark .info .title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 21px;
+}
+#footer.dark .info ul.common-list li {
+  border-bottom: 1px solid #333;
+}
+#footer.dark .info ul.common-list li a {
+  display: block;
+  line-height: 45px;
+  color: #a2a2a2;
+  text-transform: capitalize;
+}
+#footer.dark .info ul.common-list li a::before {
+  content: ">";
+  margin-right: 10px;
+}
+#footer.dark .info ul.common-list li a:hover {
+  color: #d6b161;
+}
+#footer.dark .info .thumbnails li {
+  float: left;
+}
+#footer.dark .info .thumbnails li a {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+#footer.dark .bottom {
+  padding: 35px 0;
+  background: #1b1b1b;
+  color: #6f7273;
+}
+#footer.dark .bottom .copyright {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+#footer.dark .bottom .copyright a {
+  color: white;
+}
+#footer.dark .social-media a {
+  margin: 0;
+  margin-left: 15px;
+  border-color: #6f7273;
+  color: #6f7273;
+}
+#go-top {
+  position: fixed;
+  right: 20px;
+  bottom: 35px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
